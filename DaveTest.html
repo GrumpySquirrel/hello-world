@@ -3,7 +3,7 @@
 <script type="text/javascript">
 var myData = new Array();
 
-$.get('https://github.com/GrumpySquirrel/hello-world/blob/master/DQResults.txt',function(data){
+$.get('https://raw.githubusercontent.com/GrumpySquirrel/hello-world/master/DQResults.txt',function(data){
 	myData = data.split('\n');
 	console.log(myData);
 });
